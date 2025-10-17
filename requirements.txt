@@ -1,4 +1,4 @@
 streamlit
-openai
-tinytroupe
+openai>=1.40.0,<2
 pandas
+git+https://github.com/microsoft/TinyTroupe.git
