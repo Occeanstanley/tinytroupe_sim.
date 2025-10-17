@@ -124,3 +124,7 @@ def simulate_once_for_persona(feature_description: str, persona_name: str) -> st
         "- Suggestions: Add a short tutorial and an undo/rollback.\n"
         "Confidence: 0.6"
     )
+
+
+# Optional: make symbol explicit (not required, but nice)
+__all__ = ["PersonaChatSession", "simulate_once_for_persona"]
